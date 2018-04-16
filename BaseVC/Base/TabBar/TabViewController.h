@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TabViewController.h
 //  BaseVC
 //
 //  Created by idea on 2018/4/16.
 //  Copyright © 2018年 idea. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface ViewController : BaseViewController
-
+@interface TabViewController : UITabBarController
 
 @end
-
