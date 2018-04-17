@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7869ADE520858B6A002C0DDA /* ZProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869ADD920858B69002C0DDA /* ZProgressHUD.m */; };
+		7869ADE620858B6A002C0DDA /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869ADDA20858B69002C0DDA /* UIColor+Hexadecimal.m */; };
+		7869ADE720858B6A002C0DDA /* prompt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869ADDC20858B69002C0DDA /* prompt.png */; };
+		7869ADE820858B6A002C0DDA /* ZCZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869ADDD20858B69002C0DDA /* ZCZLabel.m */; };
+		7869ADE920858B6A002C0DDA /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869ADDE20858B69002C0DDA /* error.png */; };
+		7869ADEA20858B6A002C0DDA /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869ADDF20858B69002C0DDA /* success.png */; };
+		7869ADEB20858B6A002C0DDA /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869ADE220858B6A002C0DDA /* refresh.png */; };
+		7869ADEC20858B6A002C0DDA /* ZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869ADE320858B6A002C0DDA /* ZProgressView.m */; };
+		7869ADED20858B6A002C0DDA /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869ADE420858B6A002C0DDA /* loading.png */; };
+		7869ADF020858BB2002C0DDA /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869ADEE20858BB2002C0DDA /* HUD.m */; };
 		78E452AF208486B2009F7E3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E452AE208486B2009F7E3A /* AppDelegate.m */; };
 		78E452B2208486B2009F7E3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E452B1208486B2009F7E3A /* ViewController.m */; };
 		78E452B7208486B4009F7E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E452B6208486B4009F7E3A /* Assets.xcassets */; };
@@ -18,6 +28,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7869ADD820858B69002C0DDA /* ZProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZProgressHUD.h; sourceTree = "<group>"; };
+		7869ADD920858B69002C0DDA /* ZProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZProgressHUD.m; sourceTree = "<group>"; };
+		7869ADDA20858B69002C0DDA /* UIColor+Hexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hexadecimal.m"; sourceTree = "<group>"; };
+		7869ADDB20858B69002C0DDA /* UIColor+Hexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hexadecimal.h"; sourceTree = "<group>"; };
+		7869ADDC20858B69002C0DDA /* prompt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prompt.png; sourceTree = "<group>"; };
+		7869ADDD20858B69002C0DDA /* ZCZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCZLabel.m; sourceTree = "<group>"; };
+		7869ADDE20858B69002C0DDA /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		7869ADDF20858B69002C0DDA /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		7869ADE020858B69002C0DDA /* ZCZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCZLabel.h; sourceTree = "<group>"; };
+		7869ADE120858B6A002C0DDA /* ZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZProgressView.h; sourceTree = "<group>"; };
+		7869ADE220858B6A002C0DDA /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		7869ADE320858B6A002C0DDA /* ZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZProgressView.m; sourceTree = "<group>"; };
+		7869ADE420858B6A002C0DDA /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		7869ADEE20858BB2002C0DDA /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
+		7869ADEF20858BB2002C0DDA /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
 		78E452AA208486B2009F7E3A /* BaseVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E452AD208486B2009F7E3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78E452AE208486B2009F7E3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +71,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7869ADD720858B0D002C0DDA /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				7869ADEF20858BB2002C0DDA /* HUD.h */,
+				7869ADEE20858BB2002C0DDA /* HUD.m */,
+				7869ADDE20858B69002C0DDA /* error.png */,
+				7869ADE420858B6A002C0DDA /* loading.png */,
+				7869ADDC20858B69002C0DDA /* prompt.png */,
+				7869ADE220858B6A002C0DDA /* refresh.png */,
+				7869ADDF20858B69002C0DDA /* success.png */,
+				7869ADDB20858B69002C0DDA /* UIColor+Hexadecimal.h */,
+				7869ADDA20858B69002C0DDA /* UIColor+Hexadecimal.m */,
+				7869ADE020858B69002C0DDA /* ZCZLabel.h */,
+				7869ADDD20858B69002C0DDA /* ZCZLabel.m */,
+				7869ADD820858B69002C0DDA /* ZProgressHUD.h */,
+				7869ADD920858B69002C0DDA /* ZProgressHUD.m */,
+				7869ADE120858B6A002C0DDA /* ZProgressView.h */,
+				7869ADE320858B6A002C0DDA /* ZProgressView.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
 		78E452A1208486B2009F7E3A = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +116,7 @@
 				78E452AE208486B2009F7E3A /* AppDelegate.m */,
 				78E452B0208486B2009F7E3A /* ViewController.h */,
 				78E452B1208486B2009F7E3A /* ViewController.m */,
+				7869ADD720858B0D002C0DDA /* HUD */,
 				78E452CC2084887B009F7E3A /* Base */,
 				78E452B6208486B4009F7E3A /* Assets.xcassets */,
 				78E452B8208486B4009F7E3A /* LaunchScreen.storyboard */,
@@ -165,7 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				78E452BA208486B4009F7E3A /* LaunchScreen.storyboard in Resources */,
+				7869ADEB20858B6A002C0DDA /* refresh.png in Resources */,
 				78E452B7208486B4009F7E3A /* Assets.xcassets in Resources */,
+				7869ADEA20858B6A002C0DDA /* success.png in Resources */,
+				7869ADE920858B6A002C0DDA /* error.png in Resources */,
+				7869ADE720858B6A002C0DDA /* prompt.png in Resources */,
+				7869ADED20858B6A002C0DDA /* loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,10 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7869ADF020858BB2002C0DDA /* HUD.m in Sources */,
+				7869ADEC20858B6A002C0DDA /* ZProgressView.m in Sources */,
+				7869ADE520858B6A002C0DDA /* ZProgressHUD.m in Sources */,
+				7869ADE820858B6A002C0DDA /* ZCZLabel.m in Sources */,
 				78E452B2208486B2009F7E3A /* ViewController.m in Sources */,
 				78E452C5208486D6009F7E3A /* BaseViewController.m in Sources */,
 				78E452BD208486B4009F7E3A /* main.m in Sources */,
 				78E452AF208486B2009F7E3A /* AppDelegate.m in Sources */,
+				7869ADE620858B6A002C0DDA /* UIColor+Hexadecimal.m in Sources */,
 				78E452C82084876C009F7E3A /* TabViewController.m in Sources */,
 				78E452CB208487D2009F7E3A /* UINavigationController+Config.m in Sources */,
 			);
